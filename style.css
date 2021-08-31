@@ -1,0 +1,19 @@
+html body h1 ul {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url("./ciel.jpg");
+    color:white;
+}
+
+main {
+    margin:0 auto;
+    width:70%;
+    text-align: center;
+}
+
+h1 {
+    color:blue;
+}
