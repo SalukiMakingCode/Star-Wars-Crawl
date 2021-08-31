@@ -3,6 +3,10 @@ html body h1 ul {
     padding:0;
 }
 
+.animate__animated.animate__zoomOut {
+    --animate-duration: 35s;
+}
+
 body {
     background-image: url("./ciel.jpg");
     color:white;
@@ -11,7 +15,7 @@ body {
 }
 
 .getDown {
-    height:600px;
+    height:130px;
 }
 
 main {
@@ -19,6 +23,7 @@ main {
     width:70%;
     text-align: center;
     animation: crawl 60s linear;
+    font-size:18px;
 }
 
 @keyframes crawl {
@@ -46,47 +51,47 @@ p {opacity: 0; }
 .p2 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
 }
 .p3 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 8s;
+    animation-delay: 6s;
 }
 .p4 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 12s;
+    animation-delay: 9s;
 }
 .p5 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 16s;
+    animation-delay: 12s;
 }
 .p6 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 20s;
+    animation-delay: 16s;
 }
 .p7 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 23s;
+    animation-delay: 19s;
 }
 .p8 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 27s;
+    animation-delay: 22s;
 }
 .p9 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 31s;
+    animation-delay: 25s;
 }
 .p10 {
     animation: load_p1 4s linear;
     animation-fill-mode: forwards;
-    animation-delay: 35s;
+    animation-delay: 28s;
 }
 
 @keyframes load_p1 {
